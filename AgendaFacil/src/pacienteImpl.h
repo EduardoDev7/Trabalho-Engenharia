@@ -6,6 +6,7 @@
 using namespace std;
 
 class PacienteImpl : public Paciente{
+protected:
     string nome;
     string email;
 
@@ -23,6 +24,8 @@ public:
     string getEmail() const;
 
     void setEmail(const string& email);
+
+protected:
 
     PacienteImpl (const Paciente& p);
 
