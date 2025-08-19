@@ -1,0 +1,9 @@
+<map id="SessaoImpl" name="SessaoImpl">
+<area shape="rect" id="Node000001" title="Implementação concreta da interface Sessao." alt="" coords="88,93,185,119"/>
+<area shape="rect" id="Node000002" href="$classSessao.html" title="Interface que representa uma sessão de fisioterapia." alt="" coords="5,5,73,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,38,125,91,121,95,61,42"/>
+<area shape="rect" id="Node000003" href="$classPaciente.html" title="Interface que representa um paciente do sistema." alt="" coords="98,5,175,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,45,139,93,134,93,134,45"/>
+<area shape="rect" id="Node000004" href="$classFisioterapeuta.html" title="Interface que representa um fisioterapeuta do sistema." alt="" coords="199,5,314,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,43,205,72,164,95,161,91,202,67,235,38"/>
+</map>

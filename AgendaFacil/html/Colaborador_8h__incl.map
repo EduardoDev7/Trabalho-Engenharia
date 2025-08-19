@@ -1,0 +1,18 @@
+<map id="src/Colaborador.h" name="src/Colaborador.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="84,5,219,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="219,225,299,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,29,204,48,240,75,273,110,299,151,302,168,299,186,282,216,277,213,294,184,297,168,294,153,269,113,236,79,201,52,171,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,225,68,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="133,33,104,52,71,79,39,113,15,153,12,168,13,183,24,212,19,214,8,184,7,167,10,151,35,110,67,76,101,48,130,29"/>
+<area shape="rect" id="Node000004" href="$sessao_8h.html" title=" " alt="" coords="112,79,191,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,31,154,65,149,65,149,31"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="192,98,238,116,260,131,278,151,283,166,284,183,275,214,270,212,278,182,278,167,273,153,257,135,236,120,190,103"/>
+<area shape="rect" id="Node000005" href="$paciente_8h.html" title=" " alt="" coords="173,152,263,177"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="164,103,200,140,196,144,160,106"/>
+<area shape="rect" id="Node000006" href="$fisioterapeuta_8h.html" title=" " alt="" coords="24,152,148,177"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="136,106,100,143,96,139,132,102"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="227,176,248,212,243,215,223,179"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="115,175,219,218,217,222,113,180"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="80,179,55,216,50,213,76,176"/>
+<area shape="poly" id="edge10_Node000006_Node000004" title=" " alt="" coords="102,150,137,113,141,117,105,154"/>
+</map>

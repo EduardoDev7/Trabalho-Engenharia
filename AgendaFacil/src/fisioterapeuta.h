@@ -6,18 +6,43 @@
 #include "sessao.h"
 using namespace std;
 
-class Fisioterapeuta{
-
+/**
+ * @brief Interface que representa um fisioterapeuta do sistema.
+ *
+ * Define a estrutura básica de um fisioterapeuta, permitindo
+ * acesso e modificação do nome, além do gerenciamento de
+ * sessões de fisioterapia associadas a ele.
+ */
+class Fisioterapeuta {
 public:
+    /**
+     * @brief Destrutor virtual padrão.
+     */
     virtual ~Fisioterapeuta() = default;
 
+    /**
+     * @brief Obtém o nome do fisioterapeuta.
+     * @return Nome do fisioterapeuta.
+     */
     virtual string getNome() const = 0;
 
+    /**
+     * @brief Define o nome do fisioterapeuta.
+     * @param nome Novo nome a ser atribuído.
+     */
     virtual void setNome(const string& nome) = 0;
 
-    virtual vector<Sessao*>::iterator getSessaoInicio () = 0;
+    /**
+     * @brief Retorna um iterador para o início da lista de sessões do fisioterapeuta.
+     * @return Iterador apontando para o início do vetor de sessões.
+     */
+    virtual vector<Sessao*>::iterator getSessaoInicio() = 0;
 
-    virtual vector<Sessao*>::iterator getSessaoFim () = 0;
+    /**
+     * @brief Retorna um iterador para o fim da lista de sessões do fisioterapeuta.
+     * @return Iterador apontando para o fim do vetor de sessões.
+     */
+    virtual vector<Sessao*>::iterator getSessaoFim() = 0;
 };
 
 #endif
