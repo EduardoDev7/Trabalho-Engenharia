@@ -41,6 +41,18 @@ public:
      */
     void setNome(const string& nome) override;
 
+     /**
+     * @brief Adiciona uma sessao na agenda
+     * @param nome Nova sessao a ser atribuído.
+     */
+    void setSessao(Sessao* sessao);
+
+    /**
+     * @brief Remove uma sessao da agenda
+     * @param nome sessao a ser excluída.
+     */
+    void deleteSessao(Sessao* sessao);
+
     /**
      * @copydoc Fisioterapeuta::getSessaoInicio
      */

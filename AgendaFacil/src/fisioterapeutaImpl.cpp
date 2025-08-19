@@ -1,4 +1,7 @@
 #include "fisioterapeutaImpl.h"
+#include <iostream>
+#include <string>
+#include <algorithm>
 
 FisioterapeutaImpl::FisioterapeutaImpl(string nome) : nome(nome) {}
 
@@ -9,6 +12,20 @@ string FisioterapeutaImpl::getNome() const {
 void FisioterapeutaImpl::setNome(const string& nome) {
     this->nome = nome;
 }
+
+void  FisioterapeutaImpl:: setSessao(Sessao* sessao){
+    sessoes.push_back(sessao);
+} 
+void FisioterapeutaImpl:: deleteSessao(Sessao* sessao){
+    for (auto it = sessoes.begin(); it!= sessoes.end(); it++)
+    {
+        if (*it == sessao)
+        {
+            sessoes.erase(it);
+            return;
+        }
+    }
+} 
 
 vector<Sessao*>::iterator FisioterapeutaImpl::getSessaoInicio() {
     return sessoes.begin();

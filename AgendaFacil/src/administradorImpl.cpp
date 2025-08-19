@@ -15,9 +15,9 @@ Recepcionista* AdministradorImpl::criarRecepcionista(const string& nome,
     return new RecepcionistaImpl(nome, cpf, dataNascimento, turnoTrabalho);
 }
 
-Sessao* AdministradorImpl::criarSessao(Paciente* paciente,
-                                       Fisioterapeuta* fisio,
-                                       const string& data,
-                                       const string& horario) {
-    return new SessaoImpl(paciente, fisio, data, horario);
+Sessao* AdministradorImpl::criarSessao(Paciente* paciente,Fisioterapeuta* fisio, const string& data, const string& horario) {
+                
+    Sessao* nova = new SessaoImpl(paciente, fisio, data, horario);
+    fisio->setSessao(nova);
+    return nova;
 }

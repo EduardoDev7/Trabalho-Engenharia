@@ -6,6 +6,8 @@
 #include "sessao.h"
 using namespace std;
 
+class Sessao;
+
 /**
  * @brief Interface que representa um fisioterapeuta do sistema.
  *
@@ -31,6 +33,18 @@ public:
      * @param nome Novo nome a ser atribuído.
      */
     virtual void setNome(const string& nome) = 0;
+
+    /**
+     * @brief Adiciona uma sessao na agenda
+     * @param nome Nova sessao a ser atribuído.
+     */
+    virtual void setSessao(Sessao* sessao) = 0;
+
+    /**
+     * @brief Remove uma sessao da agenda
+     * @param nome sessao a ser excluída.
+     */
+    virtual void deleteSessao(Sessao* sessao) = 0;
 
     /**
      * @brief Retorna um iterador para o início da lista de sessões do fisioterapeuta.

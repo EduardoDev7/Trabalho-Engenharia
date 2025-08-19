@@ -45,17 +45,17 @@ public:
     /**
      * @brief Construtor de cópia padrão.
      */
-    RecepcionistaImpl(const RecepcionistaImpl& other) = default;
+    RecepcionistaImpl(const RecepcionistaImpl& other);
 
     /**
      * @brief Operador de atribuição padrão.
      */
-    RecepcionistaImpl& operator=(const RecepcionistaImpl& other) = default;
+    RecepcionistaImpl& operator=(const RecepcionistaImpl& other);
 
     /**
      * @brief Destrutor padrão.
      */
-    ~RecepcionistaImpl() override = default;
+    ~RecepcionistaImpl() = default;
 
     /**
      * @copydoc Recepcionista::getNome

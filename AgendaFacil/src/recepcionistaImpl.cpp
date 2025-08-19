@@ -1,8 +1,5 @@
 #include "recepcionistaImpl.h"
 
-RecepcionistaImpl::RecepcionistaImpl()
-    : nome(""), cpf(""), dataNascimento(""), turnoTrabalho("") {}
-
 RecepcionistaImpl::RecepcionistaImpl(const std::string& nome,
                                      const std::string& cpf,
                                      const std::string& dataNascimento,
@@ -14,9 +11,6 @@ RecepcionistaImpl::RecepcionistaImpl(const RecepcionistaImpl& other)
       cpf(other.cpf),
       dataNascimento(other.dataNascimento),
       turnoTrabalho(other.turnoTrabalho) {}
-
-RecepcionistaImpl::~RecepcionistaImpl() {
-}
 
 RecepcionistaImpl& RecepcionistaImpl::operator=(const RecepcionistaImpl& other) {
     if (this != &other) {

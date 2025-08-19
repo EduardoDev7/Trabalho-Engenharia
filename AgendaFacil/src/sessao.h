@@ -5,6 +5,8 @@
 #include "paciente.h"
 #include "fisioterapeuta.h"
 
+class Fisioterapeuta;
+
 using namespace std;
 
 /**
